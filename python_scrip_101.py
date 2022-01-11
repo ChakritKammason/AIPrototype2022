@@ -35,5 +35,6 @@ if __name__ == "__main__":
     y = args.yval
     print(f'M = {args.M}')
     print(f'calculate {x} x {y} = {x*y}')
+    #print(x*y)
 
 
