@@ -8,8 +8,6 @@ def print_other():
     print('something else')
 
 def parse_input():
-
-    if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='test')
     parser.add_argument(
         'M',
@@ -30,7 +28,7 @@ def parse_input():
     return args
 
 if __name__ == "__main__":
-    
+
     args = parse_input()
 
     x = args.x
